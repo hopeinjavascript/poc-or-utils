@@ -1,0 +1,28 @@
+.pagination-wrapper {
+  padding: 2rem;
+}
+
+h2 {
+  /* resetting */
+  margin: 0;
+}
+
+.btn:not(:last-child) {
+  margin-right: 0.25rem;
+}
+
+.btn-active {
+  display: inline-block;
+  background-color: rgb(70, 130, 180);
+  color: #f5f4f5;
+  transform: scale(1.15);
+  outline: 0;
+  border: 0;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 2px;
+}
+
+h4 {
+  display: inline-block;
+}

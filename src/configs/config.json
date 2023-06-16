@@ -1,0 +1,5 @@
+{
+  "URL": "https://jsonplaceholder.typicode.com/todos",
+  "TODOS_PER_PAGE": 10,
+  "OPTIONS": [10, 30, 50, 100]
+}
