@@ -1,0 +1,11 @@
+.folder {
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.refresh {
+  cursor: pointer;
+  font-size: 0.8rem;
+  margin-left: 1rem;
+}

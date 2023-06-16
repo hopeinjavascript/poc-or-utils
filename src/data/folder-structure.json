@@ -1,0 +1,134 @@
+{
+  "name": "Project",
+  "isFolder": true,
+  "items": [
+    {
+      "name": "node_modules",
+      "isFolder": true,
+      "items": [
+        {
+          "name": ".bin",
+          "isFolder": true,
+          "items": [{ "name": "ok", "isFolder": false, "items": [] }]
+        },
+        {
+          "name": ".cache",
+          "isFolder": true,
+          "items": [{ "name": ".eslintcache", "isFolder": false, "items": [] }]
+        }
+      ]
+    },
+    {
+      "name": "public",
+      "isFolder": true,
+      "items": [
+        {
+          "name": "favicon.ico",
+          "isFolder": false,
+          "items": []
+        },
+        {
+          "name": "index.html",
+          "isFolder": false,
+          "items": []
+        },
+        {
+          "name": "manifest.json",
+          "isFolder": false,
+          "items": []
+        },
+        {
+          "name": "robots.txt",
+          "isFolder": false,
+          "items": []
+        }
+      ]
+    },
+    {
+      "name": "src",
+      "isFolder": true,
+      "items": [
+        {
+          "name": "components",
+          "isFolder": true,
+          "items": [
+            {
+              "name": "Folder",
+              "isFolder": true,
+              "items": [
+                {
+                  "name": "Folder.jsx",
+                  "isFolder": false,
+                  "items": []
+                },
+                {
+                  "name": "Folder.css",
+                  "isFolder": false,
+                  "items": []
+                }
+              ]
+            },
+            {
+              "name": "Products",
+              "isFolder": true,
+              "items": [
+                {
+                  "name": "Products.jsx",
+                  "isFolder": false,
+                  "items": []
+                },
+                {
+                  "name": "Products.css",
+                  "isFolder": false,
+                  "items": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "configs",
+          "isFolder": true,
+          "items": [
+            {
+              "name": "config.json",
+              "isFolder": false,
+              "items": []
+            }
+          ]
+        },
+        {
+          "name": "data",
+          "isFolder": true,
+          "items": [
+            {
+              "name": "data.json",
+              "isFolder": false,
+              "items": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": ".gitignore",
+      "isFolder": false,
+      "items": []
+    },
+    {
+      "name": "package-lock.json",
+      "isFolder": false,
+      "items": []
+    },
+    {
+      "name": "package.json",
+      "isFolder": false,
+      "items": []
+    },
+    {
+      "name": "README.md",
+      "isFolder": false,
+      "items": []
+    }
+  ]
+}
