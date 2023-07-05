@@ -1,0 +1,13 @@
+.post-list-wrapper {
+  /* width: 95%;
+  margin: 0 auto; */
+  padding: 2rem 4.45rem;
+}
+
+.post-list {
+  display: flex;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+  gap: 3rem 2.5rem;
+  font-family: Calibri;
+}

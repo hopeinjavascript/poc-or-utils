@@ -1,0 +1,57 @@
+.skeleton-wrapper {
+  width: 250px;
+  animation: skeleton 300ms ease infinite alternate;
+
+  --skeleton-bg-color: #cccccc;
+}
+
+@keyframes skeleton {
+  to {
+    opacity: 0.5;
+  }
+}
+
+.skeleton-img-container {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 0.5rem;
+  border-radius: 10px;
+  background-color: var(--skeleton-bg-color);
+}
+
+.skeleton-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.skeleton-avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: var(--skeleton-bg-color);
+}
+
+.skeleton-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.skeleton-title {
+  background-color: var(--skeleton-bg-color);
+  width: 180px;
+  height: 21px;
+}
+.skeleton-title.sm {
+  width: 120px;
+}
+
+.skeleton-channel-name {
+  background-color: var(--skeleton-bg-color);
+  height: 16px;
+}
+
+.skeleton-meta {
+  background-color: var(--skeleton-bg-color);
+  height: 16px;
+}

@@ -1,0 +1,50 @@
+.post-wrapper {
+  max-width: 250px;
+  /* flex: 1; */
+}
+
+.post-img-container {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.post-img-container img {
+  background-color: lemonchiffon;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.post-container {
+  display: flex;
+  gap: 1rem;
+  /* flex-direction: column; */
+}
+
+.post-avatar-container {
+  width: 35px;
+  height: 35px;
+}
+
+.post-avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.post-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.post-title {
+  font-size: 18px;
+  font-weight: 600;
+  flex: 1;
+}
+
+.post-channel-name {
+  font-size: 16px;
+}
