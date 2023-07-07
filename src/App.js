@@ -1,11 +1,10 @@
 import './App.css';
+import Queue from './components/Queue/Queue';
 
 function App() {
   return (
     <div className="app">
-      <header>
-        <p>Welcome Home</p>
-      </header>
+      <Queue maxSize={8} />
     </div>
   );
 }
