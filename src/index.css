@@ -17,3 +17,16 @@ code {
   padding: 0;
   box-sizing: border-box;
 }
+
+button {
+  outline: 0;
+  border: 0;
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
