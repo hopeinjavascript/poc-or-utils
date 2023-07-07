@@ -1,12 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import Stack from './components/Stack/Stack';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>Welcome Home</p>
-      </header>
+      <Stack />
     </div>
   );
 }
