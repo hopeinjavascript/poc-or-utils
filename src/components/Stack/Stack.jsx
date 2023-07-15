@@ -48,9 +48,10 @@ const Stack = ({ maxSize = 5 }) => {
 
   return (
     <div className="wrapper stack-wrapper">
+      <h1 className="heading">Stack</h1>
       <h2>
-        Max Stack Size: {maxSize} | Count: {size()} | isEmpty: {`${isEmpty()}`}{' '}
-        | isFull: {`${isFull()}`} | Peek: {peek() ?? `${peek()}`}
+        Max Size: {maxSize} | Count: {size()} | isEmpty: {`${isEmpty()}`} |
+        isFull: {`${isFull()}`} | Peek: {peek() ?? `${peek()}`}
         {/* | Last popped: {poppedItem} */}
       </h2>
       <div className="controls">
