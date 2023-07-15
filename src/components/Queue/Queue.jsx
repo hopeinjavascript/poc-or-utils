@@ -41,9 +41,10 @@ const Queue = ({ maxSize = 5 }) => {
 
   return (
     <div className="wrapper queue-wrapper">
+      <h1 className="heading">Queue</h1>
       <h2>
-        Max Queue Size : {maxSize} | Count: {size()} | isEmpty:{`${isEmpty()}`}{' '}
-        | isFull:{`${isFull()}`}
+        Max Size : {maxSize} | Count: {size()} | isEmpty:{`${isEmpty()}`} |
+        isFull:{`${isFull()}`}
       </h2>
       <div className="controls">
         <button
