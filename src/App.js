@@ -1,11 +1,10 @@
 import './App.css';
+import CompoundComponent from './components/CompoundComponent/CompoundComponent';
 
 function App() {
   return (
     <div className="app">
-      <header>
-        <p>Welcome Home</p>
-      </header>
+      <CompoundComponent />
     </div>
   );
 }
