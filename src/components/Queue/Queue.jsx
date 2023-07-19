@@ -39,12 +39,14 @@ const Queue = ({ maxSize = 5 }) => {
 
   const isFull = () => count === maxSize;
 
+  const peek = () => (!isEmpty() ? queueItems[0] : null);
+
   return (
     <div className="wrapper queue-wrapper">
       <h1 className="heading">Queue</h1>
       <h2>
         Max Size : {maxSize} | Count: {size()} | isEmpty:{`${isEmpty()}`} |
-        isFull:{`${isFull()}`}
+        isFull:{`${isFull()}`} | Peek: {`${peek()}`}
       </h2>
       <div className="controls">
         <button
